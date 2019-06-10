@@ -2,10 +2,10 @@
 #include <ESP8266WiFi.h>                                                // esp8266 library
 #include <FirebaseArduino.h>                                             // firebase library
 
-#define FIREBASE_HOST "arduino-acb2c.firebaseio.com"   // the project name address from firebase id
-#define FIREBASE_AUTH "en1XaECVWqc2wJkh2crU3MHPKOaakmwhY5NWZ6fy"                    // the secret key generated from firebase
-#define WIFI_SSID "kr"                                          // input your home or public wifi name 
-#define WIFI_PASSWORD ""                                    //password of wifi ssid
+#define FIREBASE_HOST "arduino-xyz2c.firebaseio.com"   // the project name address from firebase id
+#define FIREBASE_AUTH "en1XafgVWqc2fgkh2crU3MHPKOaakfghY5NWZ6fy"                    // the secret key generated from firebase
+#define WIFI_SSID "Kenronoh"                                          // input your home or public wifi name 
+#define WIFI_PASSWORD "12345"                                    //password of wifi ssid
 
 String fireStatus = "";                                                     // led status received from firebase
 int led = D3;                                                                // for external led
